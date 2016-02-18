@@ -36,12 +36,14 @@ nav > p a {
 }
 
 .form-box {
+  position: fixed;
   background: white;
   font-family: modernesans;
   text-align: left;
+  margin-left: 25px;
+  margin-top: 25px;
   height: 300px;
-  width: 60%;
-  margin: 200px auto;
+  width: 30%;
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0px 10px 20px black;

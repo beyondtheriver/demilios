@@ -1,6 +1,3 @@
-body {
-
-}
 #wrapper {
    display: float;
    float: left;
@@ -11,17 +8,30 @@ body {
    width: 100%;
    margin: auto;
    display: inline-block;
+  background-image: url("images/homeimage.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+nav {
+  display: flex;
+  align-self: flex-end;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: fixed;
+  bottom: 0px;
 }
-/*#floater {
-   display: float;
-   float: left;
-   clear: both;
-   text-align: center;
+
+nav > p {
+  padding: 10px;
+  margin: 10px;
 }
-.image {
-   width: 305px;
-   margin: 10px;
-   display: inline-block;
+
+nav > p a {
+  color: white;
+  font-family: modernesans;
+  font-size: 35px;
+  text-decoration: none;
 }
-*/
+

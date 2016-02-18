@@ -1,9 +1,27 @@
 body {
-   background-image: url("homeimage.jpg");
-   background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#homeimage {
 
 }
+#wrapper {
+   display: float;
+   float: left;
+   clear: both;
+   text-align: center;
+}
+#homeimage {
+   width: 100%;
+   margin: auto;
+   display: inline-block;
+
+}
+/*#floater {
+   display: float;
+   float: left;
+   clear: both;
+   text-align: center;
+}
+.image {
+   width: 305px;
+   margin: 10px;
+   display: inline-block;
+}
+*/

@@ -1,9 +1,27 @@
 body {
-   background-image: url("homeimage.jpg");
-   background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url("images/homeimage.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-#homeimage {
 
+nav {
+  display: flex;
+  align-self: flex-end;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: fixed;
+  bottom: 0px;
+}
+
+nav > p {
+  padding: 10px;
+  margin: 10px;
+}
+
+nav > p a {
+  color: white;
+  font-family: modernesans;
+  font-size: 35px;
+  text-decoration: none;
 }

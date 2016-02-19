@@ -6,9 +6,10 @@
    height: 100%;
 }
 #homeimage {
-   width: 100%;
-   height: 100%;
-   margin: auto;
+  position: relative;
+   width: 104%;
+   height: 105%;
+   margin-top: -2%;
  }
 body {
 
@@ -21,6 +22,7 @@ nav {
   color: white;
   position: fixed;
   bottom: 0px;
+  z-index: 2;
 }
 
 nav > p {
@@ -36,7 +38,8 @@ nav > p a {
 }
 
 .form-box {
-  position: fixed;
+  position: absolute;
+  z-index: 1;
   background: white;
   font-family: modernesans;
   text-align: left;
@@ -52,4 +55,17 @@ nav > p a {
 .form-box > h2 {
   margin-top: 0px;
   text-align: center;
+}
+
+input {
+  width: 50%;
+}
+
+textarea {
+  width: 90%;
+  height: 175px;
+}
+
+#button {
+  width: 50px
 }

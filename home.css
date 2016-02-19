@@ -49,7 +49,10 @@ nav > p a {
   text-decoration: none;
   font-family: "Hominis", sans-serif;
 }
-
+@fontface {
+  font-family: "Hominis";
+  src: url(css/font-family/HOMINIS.tff);
+}
 .form-box {
   position: absolute;
   z-index: 1;

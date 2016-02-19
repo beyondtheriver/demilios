@@ -6,10 +6,22 @@
    height: 100%;
 }
 #homeimage {
-  position: relative;
+   position: relative;
    width: 104%;
    height: 105%;
    margin-top: -2%;
+ }
+ #realtalk {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 35%;
+    height: auto;
+    font-family: "Slabo 27px", sans-serif;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
  }
 body {
 
@@ -31,10 +43,11 @@ nav > p {
 }
 
 nav > p a {
-  color: white;
+  color: #d3d3d3;
   font-family: modernesans;
-  font-size: 35px;
+  font-size: 1.5em;
   text-decoration: none;
+  font-family: "Hominis", sans-serif;
 }
 
 .form-box {

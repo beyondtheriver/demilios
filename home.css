@@ -51,7 +51,7 @@ nav > p a {
 }
 @fontface {
   font-family: "Hominis";
-  src: url(css/font-family/HOMINIS.tff);
+  src: url(css/font-family/HOMINIS-webfont.woff);
 }
 .form-box {
   position: absolute;

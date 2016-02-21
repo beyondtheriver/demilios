@@ -1,28 +1,29 @@
 #wrapper {
-   display: flex;
-   justify-content: center;
-   text-align: center;
-   max-width: 100%;
-   height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
+
 #homeimage {
-   position: relative;
-   width: 104%;
-   height: 105%;
-   margin-top: -2%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
  }
+
  #realtalk {
-    position: absolute;
-    top: 80px;
-    right: 20px;
-    width: 35%;
-    height: auto;
-    font-family: "Slabo 27px", sans-serif;
-    font-size: 1.5em;
-    line-height: 1.3em;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
- }
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  width: 35%;
+  height: auto;
+  font-family: "Slabo 27px", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
 
 nav {
   display: flex;
@@ -39,17 +40,20 @@ nav > p {
   margin: 10px;
 }
 
-@fontface {
-  font-family: "Hominis";
-  src: url(font-family/HOMINIS-webfont.woff);
+@font-face{
+	font-family: 'Hominis';
+	src: url('font/Hominis-WebFont.eot');
+	src: url('font/Hominis-WebFont.eot?iefix') format('eot'),
+	     url('font/Hominis-WebFont.woff') format('woff'),
+	     url('font/Hominis-WebFont.ttf') format('truetype'),
+	     url('font/Hominis-WebFont.svg#webfont') format('svg');
 }
 
 nav > p a {
   color: #d3d3d3;
-  font-family: modernesans;
   font-size: 1.5em;
   text-decoration: none;
-  font-family: "Hominis", sans-serif;
+  font-family: "Hominis";
 }
 
 .form-box {
@@ -70,6 +74,7 @@ nav > p a {
 .form-box > h2 {
   margin-top: 0px;
   text-align: center;
+  color: blue;
 }
 
 input {

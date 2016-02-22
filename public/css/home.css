@@ -25,19 +25,21 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
-nav {
-  display: flex;
-  align-self: flex-end;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
+#navbar {
+  display: inline-block;
   position: fixed;
   bottom: 0px;
-  z-index: 2;
 }
 
-nav > p {
-  padding: 10px;
-  margin: 10px;
+ul {
+   list-style-type: none;
+   margin: auto;
+   height: 40px;
+}
+
+li {
+   display: inline;
+   float: left;
 }
 
 @font-face{
@@ -49,12 +51,15 @@ nav > p {
 	     url('font/Hominis-WebFont.svg#webfont') format('svg');
 }
 
-nav > p a {
-  color: #d3d3d3;
-  font-size: 1.5em;
-  text-decoration: none;
-  font-family: "Hominis";
-}
+li a {
+    display: block;
+    padding: 10px 10px 10px 10px;
+    color: #d3d3d3;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: "Hominis";
+    background: rgba(0, 0, 0, 0.5);
+ }
 
 .form-box {
   position: absolute;
@@ -93,6 +98,7 @@ textarea {
 .review {
   display: none;
   position: absolute;
+  font-family: "Slabo 27px";
   color: wheat;
   right: 25px;
   font-size: 2em;

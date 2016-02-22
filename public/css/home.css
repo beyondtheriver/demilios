@@ -1,31 +1,15 @@
-<<<<<<< HEAD
-div#wrapper {
-   display: flex;
-   justify-content: center;
-   text-align: center;
-   max-width: 100%;
-   height: 100%;
-=======
 #wrapper {
   display: flex;
   justify-content: center;
   text-align: center;
->>>>>>> 55196777752bcb4e245ae9613c4e75f91483cd49
 }
 
 #homeimage {
-<<<<<<< HEAD
-   position: relative;
-   width: 100%;
-   height: 100%;
-   margin-top: 0;
-=======
   top: 0;
   left: 0;
   position: absolute;
   width: 100%;
   height: 100%;
->>>>>>> 55196777752bcb4e245ae9613c4e75f91483cd49
  }
 
  #realtalk {

@@ -105,3 +105,14 @@ textarea {
 #button {
   width: 50px
 }
+
+.review {
+  display: none;
+  position: absolute;
+  color: wheat;
+  right: 25px;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 3px 2px black;
+  text-align: right;
+}

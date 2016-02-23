@@ -93,10 +93,16 @@ textarea {
 .review {
   display: none;
   position: absolute;
+  font-style: italic;
   color: wheat;
+  top: 25px;
   right: 25px;
   font-size: 2em;
   font-weight: bold;
   text-shadow: 3px 2px black;
   text-align: right;
+}
+
+#reviewer {
+  font-style: normal;
 }

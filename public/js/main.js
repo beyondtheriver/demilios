@@ -1,34 +1,27 @@
 $(document).ready(function(){
-  var index = 0;
-  var $review = $(".review")[index];
+  var $review = $(".review").first();
 
   function displayReviews(){
-    // the root of why my reviews won't start. I keep getting the error $review.is is not a function. why!?
-    // I beleive my logic is right, there's gotta some jquery rule that i'm not getting around.
-    if ($review.is(':hidden')){
-      $review.fadeIn('slow', function(){
+
+    if ($review.next().length === 0 && $review.is(':hidden')){
+      $review.fadeIn('fast', function(){
 
       });
-      index ++
-    } else if (index === $(".review").length - 1){
-      $(".review")[index].fadeOut('slow', function(){
+      $review.fadeOut(5800, function(){
 
       });
-      $(".review")[0].fadeIn('slow', function(){
-
-      });
-      index = 0;
+      $review = $(".review").first();
     } else {
-      $(".review")[index].fadeOut('slow', function(){
+      $review.fadeIn('fast', function(){
 
       });
-      $(".review")[index + 1].fadeIn('slow', function(){
+      $review.fadeOut(5800, function(){
 
       });
-      index ++
+      $review = $review.next();
     }
 
   }
 
-  window.setInterval(displayReviews, 6000)
+  window.setInterval(displayReviews, 5700)
 });

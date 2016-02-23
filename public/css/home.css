@@ -106,3 +106,7 @@ textarea {
   text-shadow: 3px 2px black;
   text-align: right;
 }
+
+#reviewer {
+  font-style: normal;
+}
